@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.parallax-container {
+    /* background-image: url("../assets/ltr-full-art-basic-lands.png"); */
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .banner {
+        background: none;
+    }
+
+    header {
+        text-align: center;
+    }
+}

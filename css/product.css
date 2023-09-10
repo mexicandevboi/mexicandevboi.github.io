@@ -1,0 +1,49 @@
+.modal-body img {
+    margin: 0 auto;
+}
+
+.legality-item {
+    text-align: center;
+}
+
+#card_inspect {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 200px;
+    height: 200px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* make clicked links have no decoration */
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}

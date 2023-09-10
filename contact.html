@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/cards.png" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/float_action_button.css">
+    <link rel="stylesheet" href="css/about_us.css">
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Card Trader Central</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dice-6-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm1 5.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm8 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm1.5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM12 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM4 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+            </svg>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!">All Products</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                            <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark" type="submit">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="py-5 bg-secondary text-light banner">
+        <div class="grid-section">
+            <div>
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <div>
+                                <h2 style="text-align: center;">Contact Us</h2>
+                                <p style="text-align: center;"><span style="font-weight: 400;">Have questions? Contact
+                                        our friendly support team at support@cardtradercentral.com. We're here to
+                                        help.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <h1 class="mb-3">Leave us a message</h1>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="your-name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="your-name" name="your-name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="your-surname" class="form-label">Your Surname</label>
+                            <input type="text" class="form-control" id="your-surname" name="your-surname" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="your-email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="your-email" name="your-email" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="your-subject" class="form-label">Your Subject</label>
+                            <input type="text" class="form-control" id="your-subject" name="your-subject">
+                        </div>
+                        <div class="col-12">
+                            <label for="your-message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="your-message" name="your-message" rows="5"
+                                required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button data-res="<?php echo $sum; ?>" type="submit"
+                                        class="btn btn-dark w-100 fw-bold">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h2 class="mb-3">Or contact us on social media</h2>
+
+        <div class="container">
+            <div class="row">
+                <!-- Facebook -->
+                <a class="btn btn-primary me-4 mb-3 col-sm " style="background-color: #3b5998;" href="#!"
+                    role="button"><i class="bi bi-facebook">Facebook</i></a>
+                <!-- Twitter -->
+                <a class="btn btn-primary me-4 mb-3 col-sm " style="background-color: #55acee;" href="#!"
+                    role="button"><i class="bi bi-twitter">Twitter</i></a>
+                <!-- Instagram -->
+                <a class="btn btn-primary me-4 mb-3 col-sm " style="background-color: #ac2bac;" href="#!"
+                    role="button"><i class="bi bi-instagram">Instagram</i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-primary me-4 mb-3 col-sm " style="background-color: #0082ca;" href="#!"
+                    role="button"><i class="bi bi-linkedin"> Linkedin</i></a>
+                <!-- Reddit -->
+                <a class="btn btn-primary me-4 mb-3 col-sm " style="background-color: #ff4500;" href="#!"
+                    role="button"><i class="bi bi-reddit"> Reddit</i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
